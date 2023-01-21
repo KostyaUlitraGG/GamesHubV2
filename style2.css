@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.menu{
+	background-color: black;
+	height: 10vh;
+	text-align: center;
+	line-height: 10vh;
+}
+.menu-item{
+	display: inline-block;
+	color: white;
+	font-size: 35px;
+	text-decoration: none;
+	margin: 0 30px;
+}
+.games_countener{
+	height: 90vh;
+	background-image: linear-gradient(45deg,#f38ffa,#539eee);
+	overflow: scroll;
+}
+.menu-item:hover{
+	text-shadow: 0 0 10px pink;
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+.games_item{
+	width: 400px;
+	height: 600px;
+	float: left;
+	list-style: none;
+	margin: 20px 20px;
+	box-shadow: 0 5px 20px black;
+	border-radius: 20px;
+	filter: brightness(0.4);
+	opacity: 0.5;
+	transition: 0.5s;
+}
+.item1{
+	background:url(CS-GO.png)center/cover no-repeat ;
+}
+.item2{
+	background: url(AmongUs.png) center/cover no-repeat;
+}
+.item3{
+	background: url(Mcraft.png)center/cover no-repeat;
+}
+.item4{
+	background: url(Fortnite.png)center/cover no-repeat;
+}
+.item5{
+	background: url(dota-2-logo.png)center/cover no-repeat;
+}
+.item6{
+	background: url(Gimpact.jpg) center/cover no-repeat;
+}
+.item7{
+	background:url(FallGuys.png) center/cover no-repeat;
+}
+.item8{
+	background: url(Valorant.jpg) center/cover no-repeat;
+}
+.games_items{
+	margin: auto;
+	width: fit-content;
+}
+.games_item:hover{
+	filter: none;
+	opacity: 1;
+	transform: scale(1.02);
+}
+.game{
+	display: block;
+	width: 80%;
+	padding: 30px 20px;
+	margin: auto;
+	background-color:coral;
+	color: white;
+	font-size: 40px;
+	text-decoration: none;
+	box-shadow: 5px 5px 20px black;
+	border-radius: 20px;
+	text-align: center;
+	margin-top: 450px;
+}
